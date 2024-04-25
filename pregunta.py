@@ -44,3 +44,4 @@ def ingest_data():
         r"\s{2,}", " ", regex=True).str.replace(".", "").str.strip()
     
     return df
+
